@@ -9,17 +9,21 @@ const Hero = () => {
         </h1>
       </section>
       <div className="text-center">
-        <h2 className="py-14 text-secondary-title-color text-5xl">
+        <h2 className="py-14 text-secondary-title-color text-5xl max-lg:text-4xl max-md:text-3xl max-sm:text-2xl">
           Du bist nicht alleil. Wir sind hier, um zu helfen
         </h2>
       </div>
       <section className="place">
-        <h3 className="text-3xl">Dein Ort für dein wahres Ich</h3>
+        <h3 className="text-3xl max-lg:text-2xl max-sm:text-xl">
+          Dein Ort für dein wahres Ich
+        </h3>
       </section>
       <section className="about_us p-10 relative">
         <div className="container">
-          <h3 className="text-left font-medium text-4xl mb-10">Über uns</h3>
-          <h4 className="text-center text-5xl text-secondary-title-color mb-10">
+          <h3 className="text-left font-medium text-4xl mb-10 max-lg:text-2xl">
+            Über uns
+          </h3>
+          <h4 className="text-center text-5xl text-secondary-title-color mb-10 max-lg:text-4xl max-md:text-3xl max-sm:text-2xl">
             Ein sicherer Ort für Frauen
           </h4>
           <p className="text-xl text-center leading-10">
@@ -39,16 +43,18 @@ const Hero = () => {
       </section>
       <section className="offer py-10 relative">
         <div className="container">
-          <h4 className="text-center text-4xl mb-20">
+          <h4 className="text-center text-4xl mb-20 max-lg:text-2xl">
             Was wir zu bieten haben
           </h4>
-          <p className="text-3xl mb-4">Praktische Hilfe</p>
+          <p className="text-3xl mb-4 max-lg:text-2xl">Praktische Hilfe</p>
           <ul className="mb-14">
-            <li className="text-xl">
+            <li className="text-xl ">
               • Kostenlose Kleidung und Kosmetikartikel
             </li>
           </ul>
-          <p className="text-3xl mb-4">Persönliche Entwicklung</p>
+          <p className="text-3xl mb-4 max-lg:text-2xl">
+            Persönliche Entwicklung
+          </p>
           <ul>
             <li className="text-xl">
               • Deutschkurse (Konversation und Grammatik)
