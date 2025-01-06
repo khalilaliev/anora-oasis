@@ -1,4 +1,6 @@
 import "./style.css";
+import leftPlant from "../../assets/images/about-us-plant.png";
+import rightPlant from "../../assets/images/offer-plant.png";
 
 const Hero = () => {
   return (
@@ -33,7 +35,7 @@ const Hero = () => {
             Gefühl haben, nicht allein zu sein.
           </p>
           <img
-            src="/src/assets/images/about-us-plant.png"
+            src={leftPlant}
             alt="plant-about"
             width={180}
             height={385}
@@ -64,7 +66,7 @@ const Hero = () => {
             </li>
           </ul>
           <img
-            src="/src/assets/images/offer-plant.png"
+            src={rightPlant}
             alt="plant-about"
             width={180}
             height={385}
