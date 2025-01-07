@@ -1,6 +1,8 @@
 import "./style.css";
 import leftPlant from "../../assets/images/about-us-plant.png";
 import rightPlant from "../../assets/images/offer-plant.png";
+import courseWall from "../../assets/images/course-wall.png";
+import courseBottom from "../../assets/images/course-bottom.png";
 
 const Hero = () => {
   return (
@@ -74,7 +76,52 @@ const Hero = () => {
           />
         </div>
       </section>
-      <section></section>
+      <section className="course py-32 relative">
+        <div className="container">
+          <div className="max-w-5xl max-lg:max-w-4xl max-md:max-w-3xl max-sm:max-w-2xl">
+            <h4 className="text-center text-4xl mb-20 max-lg:text-2xl">
+              Deutschkurse für Frauen
+            </h4>
+            <p className="text-3xl max-lg:text-2xl max-md:text-xl mb-6">
+              Wir bieten Deutschunterricht für Frauen, die ihre Sprachkenntnisse
+              verbessern möchten
+            </p>
+            <p className="mb-3 text-secondary-title-color">
+              Kostenlose Konversationsgruppen
+            </p>
+            <p>Jeden Montag von 16:45 bis 17:45 </p>
+            <p className="mb-6">
+              bieten wir Konversationsstunden mit einfachen und alltagsnahen
+              Themen an. Diese Gruppen sind völlig kostenlos und unverbindlich.
+            </p>
+            <p className="mb-3 text-secondary-title-color">
+              Individueller Deutschunterricht
+            </p>
+            <p>
+              Für intensiveres Lernen bieten wir persönliche Deutschstunden an,
+              bei denen auch Grammatik und schriftliche Übungen im Fokus stehen.
+              Preis: 30 CHF für ein Paket von 5 Lektionen. Zeiten: Dienstags von
+              17:00 bis 19:00, Freitags von 17:00 bis 18:00 uhr
+            </p>
+            <a
+              className="text-center text-secondary-title-color"
+              href="tel:4100765027389"
+            >
+              Tel. +4 176 502 73 89 Claudia
+            </a>
+          </div>
+        </div>
+        <img
+          className="absolute top-0 right-30% max-md:hidden"
+          src={courseWall}
+          alt="course"
+        />
+        <img
+          className="absolute -bottom-1/3 -left-48 max-md:hidden"
+          src={courseBottom}
+          alt="course-bottom"
+        />
+      </section>
     </>
   );
 };

@@ -3,6 +3,9 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      inset: {
+        "30%": "-30%",
+      },
       colors: {
         "bg-color": "#fffdfe",
         "main-title-color": "#764646",
